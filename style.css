@@ -54,7 +54,14 @@ body {
   text-shadow: 10px 15px 20px #c66300;
 }
 
+.text-logo{
+    padding-top: 5%;
+    padding-bottom: 2%;
+    width: 60%;
+}
+
 .banner-logo {
+    width: 60%;
 }
 
 .rocket-left {
@@ -164,9 +171,19 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+    .banner-section{
+        height: auto;
+    }
+
+
   .rwug-title {
     font-size: 7em;
     letter-spacing: 0;
+  }
+
+  .text-logo{
+    padding-top: 5%;
+    max-width: 90%;
   }
 
   .banner-logo {
@@ -188,11 +205,17 @@ body {
   }
 
   .rocket-left {
-    display: none;
+    /* display: none; */
+    width: 80px;
+    bottom: 0;
+    left: 0;
   }
 
   .rocket-right {
-    display: none;
+    /* display: none; */
+    width: 80px;
+    bottom: 0;
+    right: 0;
   }
 
   .ca {
