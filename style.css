@@ -55,12 +55,13 @@ body {
 }
 
 .text-logo {
-  width: 60%;
+    padding-top: 4%;
+  width: 50%;
 }
 
 .banner-logo {
-  width: 60%;
-  margin-top: -5%;
+  width: 45%;
+  margin-top: 2%;
 }
 
 .rocket-left {
@@ -86,7 +87,7 @@ body {
 }
 
 .ca-part {
-  padding-top: 5%;
+  padding-top: 25%;
   padding-bottom: 5%;
   text-align: center;
 }
@@ -185,13 +186,13 @@ body {
   }
 
   .text-logo {
-    padding-top: 8%;
+    padding-top: 20%;
     max-width: 100%;
   }
 
   .banner-logo {
     max-width: 90%;
-    margin-top: 5%;
+    margin-top: 15%;
   }
 
   .second-layer{
@@ -227,13 +228,17 @@ body {
     right: 0;
   }
 
+  .follow-part{
+    padding-top: 10%;
+  }
+
   .ca {
     font-size: 1.2rem;
     letter-spacing: 0;
   }
 
   .ca-part{
-    padding-top: 25%;
+    padding-top: 50%;
   }
 
   .follow {
