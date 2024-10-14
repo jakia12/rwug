@@ -176,7 +176,7 @@ body {
 
 @media screen and (max-width: 768px) {
   .banner-section {
-    height: auto;
+    height: 60vh;
   }
 
   .rwug-title {
@@ -185,12 +185,18 @@ body {
   }
 
   .text-logo {
-    padding-top: 5%;
-    max-width: 90%;
+    padding-top: 8%;
+    max-width: 100%;
   }
 
   .banner-logo {
     max-width: 90%;
+    margin-top: 5%;
+  }
+
+  .second-layer{
+    background-size: cover;
+    height: 50vh;
   }
 
   .telegram {
@@ -210,20 +216,24 @@ body {
   .rocket-left {
     /* display: none; */
     width: 80px;
-    bottom: 0;
+    bottom: 20%;
     left: 0;
   }
 
   .rocket-right {
     /* display: none; */
     width: 80px;
-    bottom: 0;
+    bottom: 25%;
     right: 0;
   }
 
   .ca {
     font-size: 1.2rem;
     letter-spacing: 0;
+  }
+
+  .ca-part{
+    padding-top: 25%;
   }
 
   .follow {
