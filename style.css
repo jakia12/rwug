@@ -164,6 +164,14 @@ body {
   max-width: 100%;
 }
 
+.story-text {
+  width: 35%;
+}
+
+.roadmap-sec {
+  margin-top: 8%;
+}
+
 .rwug-show {
   padding: 40px 0;
   font-size: 5em;
@@ -275,8 +283,12 @@ body {
     border-radius: 10% 20% 10% 20%;
   }
 
-  .roadmap-sec{
+  .roadmap-sec {
     margin-top: 85%;
+  }
+
+  .story-text {
+    width: 50%;
   }
 
   .rwug-show {
